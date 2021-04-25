@@ -1,9 +1,9 @@
 from setuptools import find_packages, setup
 setup(
     name='CopyMethod',
-    packages=find_packages(include=['mypythonlibrary']),
+    packages=find_packages(include=['copy_method']),
     version='0.1.0',
-    description='My first Python library',
+    description='Added web preview for links in copy method in pyrogram',
     author='Anonymous',
     license='MIT',
     install_requires=['pyrogram==1.2.9'],
